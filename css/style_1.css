@@ -1,7 +1,6 @@
 html, body
 {
 	height: 100%;
-	
 	font-family: 'Noto Serif', serif;
 }
 
@@ -21,7 +20,7 @@ ul
 	left: 0px;
 	height: 2000px;
 	width: 100%;
-	background-color: #ffffff;
+	background: linear-gradient(to top left,#cccccc 0%, #d9d9d9 35%, #e6e6e6 60%, #f2f2f2 85%, #ffffff 100%);
 }
 
 
@@ -62,10 +61,16 @@ ul
 	height: 300px;
 	width: 700px;
 	padding: 25px 25px 25px 25px;
-	/*border: 2px black solid;*/
 	border-radius: 20px;
-	background-color: #e6e6e6;
+	background: #d9d9d9;
 	opacity: 0.9;
+	box-shadow: 15px 15px 15px #b3b3b3;
+}
+
+.about:hover
+{
+		background: linear-gradient(to top right,#cccccc 0%, #d9d9d9 50%, #e6e6e6 100%);
+    transition: background 2000ms linear;
 }
 
 .photo
@@ -79,6 +84,7 @@ ul
 
 }
 
+
 .about-text
 {
 	position: relative;
@@ -87,5 +93,6 @@ ul
 	font-size: 25px;
 	line-height: 40px;
 }
+
 
 
