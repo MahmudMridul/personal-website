@@ -18,11 +18,15 @@ ul
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	height: 2000px;
+	height: 3852px;
 	width: 100%;
-	background: linear-gradient(to top left,#cccccc 0%, #d9d9d9 35%, #e6e6e6 60%, #f2f2f2 85%, #ffffff 100%);
+	background: #f2f2f2;
 }
 
+.section-dark
+{
+	background: #262626;
+}
 
 .side-menu
 {
@@ -39,6 +43,7 @@ ul
 	font-size: 16px;
 	border-radius: 25px;
 	transition: height 1s, top 1s, opacity 1s, background-color 1s, line-height 1s, font-size 1s, color 1s;
+	z-index: 1;
 }
 
 .side-menu:hover
@@ -52,47 +57,83 @@ ul
 	font-size: 18px;
 }
 
-
 .about
 {
 	position: absolute;
-	left: 300px;
-	top: 130px;
-	height: 300px;
-	width: 700px;
-	padding: 25px 25px 25px 25px;
-	border-radius: 20px;
-	background: #d9d9d9;
+	left: 0px;
+	top: 0px;
+	height: 642px;
+	width: 100%;
 	opacity: 0.9;
-	box-shadow: 15px 15px 15px #b3b3b3;
-}
-
-.about:hover
-{
-		background: linear-gradient(to top right,#cccccc 0%, #d9d9d9 50%, #e6e6e6 100%);
-    transition: background 2000ms linear;
 }
 
 .photo
 {
 	position: absolute;
-	left: 10px;
-	top: 10px;
+	left: 400px;
+	top: 150px;
 	height: 210px;
 	width: 200px;
 	border-radius: 50%;
 
 }
 
-
 .about-text
 {
-	position: relative;
-	left: 230px;
-	top: 30px;
+	width: 600px;
+	position: absolute;
+	left: 610px;
+	top: 150px;
 	font-size: 25px;
 	line-height: 40px;
 }
+
+.education
+{
+	position: absolute;
+	left: 0px;
+	top: 642px;
+	height: 642px;
+	width: 100%;
+}
+
+.skills
+{
+	position: absolute;
+	left: 0px;
+	top: 1284px;
+	height: 642px;
+	width: 100%;
+}
+
+.certifications
+{
+	position: absolute;
+	left: 0px;
+	top: 1926px;
+	height: 642px;
+	width: 100%;
+}
+
+.projects
+{
+	position: absolute;
+	left: 0px;
+	top: 2568px;
+	height: 642px;
+	width: 100%;
+}
+
+.contact
+{
+	position: absolute;
+	left: 0px;
+	top: 3210px;
+	height: 642px;
+	width: 100%;
+}
+
+
 
 
 
