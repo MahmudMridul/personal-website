@@ -13,6 +13,15 @@ ul
 	text-align: center;
 }
 
+a{
+	text-decoration: none;
+}
+
+.side-menu-text
+{
+	color: white;
+}
+
 .container
 {
 	position: absolute;
@@ -97,6 +106,20 @@ ul
 	width: 100%;
 }
 
+.education-header
+{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+.education-text
+{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	line-height: 80px;
+}
+
 .skills
 {
 	position: absolute;
@@ -104,6 +127,12 @@ ul
 	top: 1284px;
 	height: 642px;
 	width: 100%;
+}
+
+.skills-header
+{
+	text-align: center;
+	font-size: 50px;
 }
 
 .certifications
@@ -115,6 +144,13 @@ ul
 	width: 100%;
 }
 
+.certifications-header
+{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+
 .projects
 {
 	position: absolute;
@@ -122,6 +158,12 @@ ul
 	top: 2568px;
 	height: 642px;
 	width: 100%;
+}
+
+.projects-header
+{
+	text-align: center;
+	font-size: 50px;
 }
 
 .contact
@@ -133,7 +175,12 @@ ul
 	width: 100%;
 }
 
-
+.contact-header
+{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
 
 
 
