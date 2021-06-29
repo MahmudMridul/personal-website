@@ -17,21 +17,17 @@ a{
 	text-decoration: none;
 }
 
+
 .progress-bar
 {
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	height: 10px;
+	height: 5px;
 	width: 0%;
 	background: #0080ff;
 	border-radius: 2px;
 	z-index: 1;
-}
-
-.side-menu-text
-{
-	color: white;
 }
 
 .container
@@ -48,6 +44,12 @@ a{
 {
 	background: #262626;
 }
+
+.side-menu-text
+{
+	color: white;
+}
+
 
 .side-menu
 {
@@ -76,6 +78,20 @@ a{
 	color: #ffffff;
 	line-height: 55px;
 	font-size: 18px;
+}
+
+#a:hover, #b:hover, #c:hover, #d:hover, #e:hover, #f:hover
+{
+	padding: 5px 5px;
+	background: #0080ff;
+	border-radius: 8px;
+}
+
+.about, .education, .skills, .certifications, .projects, .contact
+{
+	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
+	scroll-snap-align: center;
 }
 
 .about
