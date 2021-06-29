@@ -17,6 +17,18 @@ a{
 	text-decoration: none;
 }
 
+.progress-bar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 10px;
+	width: 0%;
+	background: #0080ff;
+	border-radius: 2px;
+	z-index: 1;
+}
+
 .side-menu-text
 {
 	color: white;
