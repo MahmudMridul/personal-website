@@ -7,8 +7,10 @@ html, body
 ul
 {
 	position: relative;
-	top: 8%;
-	left: -23px;
+	top: 3.6vw;
+	left: 0vw;
+  margin: 0px;
+  padding: 0px;
 	list-style-type: none;
 	text-align: center;
 }
@@ -23,10 +25,10 @@ a{
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	height: 5px;
+	height: 0.37vw;
 	width: 0%;
 	background: #0080ff;
-	border-radius: 2px;
+	border-radius: 0.15vw;
 	z-index: 1;
 }
 
@@ -35,8 +37,8 @@ a{
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	height: 3852px;
-	width: 100%;
+	height: 285.55vw;
+	width: 98.8vw;
 	background: #f2f2f2;
 }
 
@@ -54,37 +56,37 @@ a{
 .side-menu
 {
 	position: fixed;
-	top: 15%;
-	left: 5px;
-	height: 400px;
-	width: 150px;
+	top: 6.75vw;
+	left: 0.37vw;
+	height: 29.652vw;
+	width: 11.119vw;
 	background-color: #000000;
 	opacity: 0.8;
 	text-align: left;
 	color: #808080;
-	line-height: 50px;
-	font-size: 16px;
-	border-radius: 25px;
+	line-height: 3.706vw;
+	font-size: 1.186vw;
+	border-radius: 1.853vw;
 	transition: height 1s, top 1s, opacity 1s, background-color 1s, line-height 1s, font-size 1s, color 1s;
 	z-index: 1;
 }
 
 .side-menu:hover
 {
-	top: 13%;
+	top: 5.85vw;
 	opacity: 1;
-	height: 450px;
+	height: 33.358vw;
 	background-color: #000000;
 	color: #ffffff;
-	line-height: 55px;
-	font-size: 18px;
+	line-height: 4.077vw;
+	font-size: 1.334vw;
 }
 
 #a:hover, #b:hover, #c:hover, #d:hover, #e:hover, #f:hover
 {
-	padding: 5px 5px;
+	padding: 0.37vw 0.37vw;
 	background: #0080ff;
-	border-radius: 8px;
+	border-radius: 0.6vw;
 }
 
 .about, .education, .skills, .certifications, .projects, .contact
@@ -99,39 +101,39 @@ a{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	height: 642px;
-	width: 100%;
+	height: 47.59vw;
+	width: 98.8vw;
 	opacity: 0.9;
 }
 
 .photo
 {
 	position: absolute;
-	left: 400px;
-	top: 150px;
-	height: 210px;
-	width: 200px;
+	left: 25vw;
+	top: 10vw;
+	height: 18vw;
+	width: 18vw;
 	border-radius: 50%;
 
 }
 
 .about-text
 {
-	width: 600px;
+	width: 44vw;
 	position: absolute;
-	left: 610px;
-	top: 150px;
-	font-size: 25px;
-	line-height: 40px;
+	left: 45vw;
+	top: 11vw;
+	font-size: 2vw;
+	line-height: 3vw;
 }
 
 .education
 {
 	position: absolute;
 	left: 0px;
-	top: 642px;
-	height: 642px;
-	width: 100%;
+	top: 47.59vw;
+	height: 47.59vw;
+	width: 98.8vw;
 }
 
 .education-header
@@ -144,17 +146,17 @@ a{
 {
 	color: white;
 	text-align: center;
-	font-size: 40px;
-	line-height: 80px;
+	font-size: 3vw;
+	line-height: 6vw;
 }
 
 .skills
 {
 	position: absolute;
 	left: 0px;
-	top: 1284px;
-	height: 642px;
-	width: 100%;
+	top: 95.18vw;
+	height: 47.59vw;
+	width: 98.8vw;
 }
 
 .skills-header
@@ -167,9 +169,9 @@ a{
 {
 	position: absolute;
 	left: 0px;
-	top: 1926px;
-	height: 642px;
-	width: 100%;
+	top: 142.77vw;
+	height: 47.59vw;
+	width: 98.8vw;
 }
 
 .certifications-header
@@ -183,9 +185,9 @@ a{
 {
 	position: absolute;
 	left: 0px;
-	top: 2568px;
-	height: 642px;
-	width: 100%;
+	top: 190.36vw;
+	height: 47.59vw;
+	width: 98.8vw;
 }
 
 .projects-header
@@ -198,9 +200,9 @@ a{
 {
 	position: absolute;
 	left: 0px;
-	top: 3210px;
-	height: 642px;
-	width: 100%;
+	top: 237.95vw;
+	height: 47.59vw;
+	width: 98.8vw;
 }
 
 .contact-header
@@ -209,6 +211,3 @@ a{
 	text-align: center;
 	font-size: 4vw;
 }
-
-
-
