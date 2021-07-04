@@ -7,4 +7,3 @@ window.onscroll = function()
 	var scroll = (winScroll / height) * 100;
 	document.getElementById("scrollBar").style.width = scroll + "%";
 };
-

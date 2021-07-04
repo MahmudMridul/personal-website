@@ -101,7 +101,7 @@ a{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	height: 47.59vw;
+	height: 100vh;
 	width: 98.8vw;
 	opacity: 0.9;
 }
@@ -131,8 +131,8 @@ a{
 {
 	position: absolute;
 	left: 0px;
-	top: 47.59vw;
-	height: 47.59vw;
+	top: 100vh;
+	height: 100vh;
 	width: 98.8vw;
 }
 
@@ -154,8 +154,8 @@ a{
 {
 	position: absolute;
 	left: 0px;
-	top: 95.18vw;
-	height: 47.59vw;
+	top: 200vh;
+	height: 100vh;
 	width: 98.8vw;
 }
 
@@ -169,8 +169,8 @@ a{
 {
 	position: absolute;
 	left: 0px;
-	top: 142.77vw;
-	height: 47.59vw;
+	top: 300vh;
+	height: 100vh;
 	width: 98.8vw;
 }
 
@@ -185,8 +185,8 @@ a{
 {
 	position: absolute;
 	left: 0px;
-	top: 190.36vw;
-	height: 47.59vw;
+	top: 400vh;
+	height: 100vh;
 	width: 98.8vw;
 }
 
@@ -200,8 +200,8 @@ a{
 {
 	position: absolute;
 	left: 0px;
-	top: 237.95vw;
-	height: 47.59vw;
+	top: 500vh;
+	height: 100vh;
 	width: 98.8vw;
 }
 
