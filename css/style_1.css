@@ -7,7 +7,7 @@ html, body
 ul
 {
 	position: relative;
-	top: 3.6vw;
+	top: 8vh;
 	left: 0vw;
   margin: 0px;
   padding: 0px;
@@ -37,7 +37,7 @@ a{
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	height: 285.55vw;
+	height: 600vh;
 	width: 98.8vw;
 	background: #f2f2f2;
 }
@@ -56,15 +56,15 @@ a{
 .side-menu
 {
 	position: fixed;
-	top: 6.75vw;
+	top: 20vh;
 	left: 0.37vw;
-	height: 29.652vw;
+	height: 63vh;
 	width: 11.119vw;
 	background-color: #000000;
 	opacity: 0.8;
 	text-align: left;
 	color: #808080;
-	line-height: 3.706vw;
+	line-height: 8vh;
 	font-size: 1.186vw;
 	border-radius: 1.853vw;
 	transition: height 1s, top 1s, opacity 1s, background-color 1s, line-height 1s, font-size 1s, color 1s;
@@ -73,13 +73,20 @@ a{
 
 .side-menu:hover
 {
-	top: 5.85vw;
+	top: 17vh;
 	opacity: 1;
-	height: 33.358vw;
+	height: 67vh;
 	background-color: #000000;
 	color: #ffffff;
-	line-height: 4.077vw;
-	font-size: 1.334vw;
+	line-height: 9vh;
+	font-size: 1.234vw;
+}
+
+@media (max-width: 600px) {
+	.side-menu
+	{
+		display: none;
+	}
 }
 
 #a:hover, #b:hover, #c:hover, #d:hover, #e:hover, #f:hover
