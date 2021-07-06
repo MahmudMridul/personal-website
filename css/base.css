@@ -1,7 +1,7 @@
 html, body
 {
 	height: 100%;
-	width: 1349.6px;
+	width: 98.8vw;
 	font-family: 'Noto Serif', serif;
 	overflow-x: hidden;
 }
@@ -15,12 +15,13 @@ ul
   padding: 0px;
 	list-style-type: none;
 	text-align: center;
+
 }
 
-a{
+a
+{
 	text-decoration: none;
 }
-
 
 .progress-bar
 {
@@ -79,12 +80,6 @@ a{
 	color: #ffffff;
 }
 
-@media (max-width: 600px) {
-	.side-menu
-	{
-		display: none;
-	}
-}
 
 #a:hover, #b:hover, #c:hover, #d:hover, #e:hover, #f:hover
 {
@@ -130,6 +125,29 @@ a{
 	top: 25vh;
 	font-size: 2vw;
 	line-height: 3vw;
+}
+
+.download-resume
+{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 10px;
+	position: absolute;
+	top: 70vh;
+	left: 35vw;
+	width: 14vw;
+	height: 6vh;
+	z-index: 1;
+	font-size: 1.3vw;
+	background: #333333;
+}
+
+.download-resume:hover
+{
+	font-size: 1.35vw;
+	background: #262626;
 }
 
 .education

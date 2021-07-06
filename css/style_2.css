@@ -1,0 +1,14 @@
+
+
+@media (max-width: 650px) {
+	.side-menu
+	{
+		display: none;
+	}
+
+	.about, .education, .skills, .certifications, .projects, .contact
+	{
+		width: 98.8vw;
+		left: 0px;
+	}
+}
