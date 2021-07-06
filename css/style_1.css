@@ -1,7 +1,9 @@
 html, body
 {
 	height: 100%;
+	width: 1349.6px;
 	font-family: 'Noto Serif', serif;
+	overflow-x: hidden;
 }
 
 ul
@@ -29,7 +31,7 @@ a{
 	width: 0%;
 	background: #0080ff;
 	border-radius: 0.15vw;
-	z-index: 1;
+	z-index: 2;
 }
 
 .container
@@ -56,30 +58,25 @@ a{
 .side-menu
 {
 	position: fixed;
-	top: 20vh;
-	left: 0.37vw;
-	height: 63vh;
-	width: 11.119vw;
+	top: 0px;
+	left: 0px;
+	height: 100vh;
+	width: 15vw;
 	background-color: #000000;
 	opacity: 0.8;
 	text-align: left;
 	color: #808080;
-	line-height: 8vh;
-	font-size: 1.186vw;
-	border-radius: 1.853vw;
-	transition: height 1s, top 1s, opacity 1s, background-color 1s, line-height 1s, font-size 1s, color 1s;
+	line-height: 13vh;
+	font-size: 1.5vw;
+	transition: opacity 1s, background-color 1s, line-height 1s, font-size 1s, color 1s;
 	z-index: 1;
 }
 
 .side-menu:hover
 {
-	top: 17vh;
 	opacity: 1;
-	height: 67vh;
 	background-color: #000000;
 	color: #ffffff;
-	line-height: 9vh;
-	font-size: 1.234vw;
 }
 
 @media (max-width: 600px) {
@@ -94,6 +91,7 @@ a{
 	padding: 0.37vw 0.37vw;
 	background: #0080ff;
 	border-radius: 0.6vw;
+	font-size: 1.6vw;
 }
 
 .about, .education, .skills, .certifications, .projects, .contact
@@ -106,18 +104,18 @@ a{
 .about
 {
 	position: absolute;
-	left: 0px;
+	left: 15vw;
 	top: 0px;
 	height: 100vh;
-	width: 98.8vw;
+	width: 83.8vw;
 	opacity: 0.9;
 }
 
 .photo
 {
 	position: absolute;
-	left: 25vw;
-	top: 10vw;
+	left: 15vw;
+	top: 25vh;
 	height: 18vw;
 	width: 18vw;
 	border-radius: 50%;
@@ -128,8 +126,8 @@ a{
 {
 	width: 44vw;
 	position: absolute;
-	left: 45vw;
-	top: 11vw;
+	left: 35vw;
+	top: 25vh;
 	font-size: 2vw;
 	line-height: 3vw;
 }
@@ -137,10 +135,10 @@ a{
 .education
 {
 	position: absolute;
-	left: 0px;
+	left: 15vw;
 	top: 100vh;
 	height: 100vh;
-	width: 98.8vw;
+	width: 83.8vw;
 }
 
 .education-header
@@ -160,10 +158,10 @@ a{
 .skills
 {
 	position: absolute;
-	left: 0px;
+	left: 15vw;
 	top: 200vh;
 	height: 100vh;
-	width: 98.8vw;
+	width: 83.8vw;
 }
 
 .skills-header
@@ -175,10 +173,10 @@ a{
 .certifications
 {
 	position: absolute;
-	left: 0px;
+	left: 15vw;
 	top: 300vh;
 	height: 100vh;
-	width: 98.8vw;
+	width: 83.8vw;
 }
 
 .certifications-header
@@ -191,10 +189,10 @@ a{
 .projects
 {
 	position: absolute;
-	left: 0px;
+	left: 15vw;
 	top: 400vh;
 	height: 100vh;
-	width: 98.8vw;
+	width: 83.8vw;
 }
 
 .projects-header
@@ -206,10 +204,10 @@ a{
 .contact
 {
 	position: absolute;
-	left: 0px;
+	left: 15vw;
 	top: 500vh;
 	height: 100vh;
-	width: 98.8vw;
+	width: 83.8vw;
 }
 
 .contact-header
