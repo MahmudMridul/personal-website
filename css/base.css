@@ -114,7 +114,12 @@ a
 	height: 18vw;
 	width: 18vw;
 	border-radius: 50%;
+	box-shadow: 2px 4px 20px;
+}
 
+.photo:hover
+{
+	box-shadow: 0px 0px 0px;
 }
 
 .about-text
@@ -127,13 +132,31 @@ a
 	line-height: 3vw;
 }
 
+.hello:hover, .Im:hover, .ab:hover, .al:hover, .mah:hover, .from:hover
+{
+	color: #0c22e8;
+	font-size: 2.2vw;
+}
+
+.moha:hover, .dh:hover, .an:hover, .prog:hover, .love:hover, .read:hover
+{
+	color: #0c73e8;
+	font-size: 2.2vw;
+}
+
+.book:hover, .and:hover, .prob:hover, .solve:hover, .phot:hover
+{
+	color: #0c73e8;
+	font-size: 2.2vw;
+}
+
 .download-resume
 {
 	text-decoration: none;
 	color: white;
 	text-align: center;
 	padding-top: 10px;
-	border-radius: 10px;
+	border-radius: 20px;
 	position: absolute;
 	top: 70vh;
 	left: 35vw;
@@ -147,7 +170,7 @@ a
 .download-resume:hover
 {
 	font-size: 1.35vw;
-	background: #262626;
+	background: #0c64e8;
 }
 
 .education
