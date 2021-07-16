@@ -9,7 +9,7 @@ html, body
 ul
 {
 	position: relative;
-	top: 8vh;
+	top: 80px;
 	left: 0vw;
   margin: 0px;
   padding: 0px;
@@ -28,10 +28,10 @@ a
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	height: 0.37vw;
+	height: 5px;
 	width: 0%;
 	background: #0080ff;
-	border-radius: 0.15vw;
+	border-radius: 3px;
 	z-index: 2;
 }
 
@@ -62,13 +62,13 @@ a
 	top: 0px;
 	left: 0px;
 	height: 100vh;
-	width: 15vw;
+	width: 229px;
 	background-color: #000000;
 	opacity: 0.8;
 	text-align: left;
 	color: #808080;
-	line-height: 13vh;
-	font-size: 1.5vw;
+	line-height: 93px;
+	font-size: 23px;
 	transition: opacity 1s, background-color 1s, line-height 1s, font-size 1s, color 1s;
 	z-index: 1;
 }
@@ -83,10 +83,11 @@ a
 
 #a:hover, #b:hover, #c:hover, #d:hover, #e:hover, #f:hover
 {
-	padding: 0.37vw 0.37vw;
-	background: #0080ff;
-	border-radius: 0.6vw;
-	font-size: 1.6vw;
+	padding: 8px 8px;
+	background: #e6e6e6;
+	border-radius: 20px;
+	font-size: 26px;
+	color: #000000;
 }
 
 .about, .education, .skills, .certifications, .projects, .contact
@@ -130,6 +131,7 @@ a
 	top: 25vh;
 	font-size: 2vw;
 	line-height: 3vw;
+	animation: text_color 5s steps(10) infinite;
 }
 
 .hello:hover, .Im:hover, .ab:hover, .al:hover, .mah:hover, .from:hover
@@ -150,12 +152,22 @@ a
 	font-size: 2.2vw;
 }
 
+@keyframes text_color
+{
+	17% { color: #001a33; }
+	34% { color: #003366; }
+	65% { color: #004080; }
+	81% { color: #003366; }
+	92% { color: #001a33; }
+	100% { color: #000d1a; }
+}
+
 .download-resume
 {
 	text-decoration: none;
-	color: white;
+	color: #f2f2f2;
 	text-align: center;
-	padding-top: 10px;
+	padding: 15px 8px 9px 8px;
 	border-radius: 20px;
 	position: absolute;
 	top: 70vh;
@@ -163,14 +175,15 @@ a
 	width: 14vw;
 	height: 6vh;
 	z-index: 1;
-	font-size: 1.3vw;
+	font-size: 22px;
 	background: #333333;
+	box-shadow: 8px 8px 15px #333333;
 }
 
 .download-resume:hover
 {
-	font-size: 1.35vw;
-	background: #0c64e8;
+	color: #f2f2f2;
+	box-shadow: 0px 0px 15px #333333;
 }
 
 .education
