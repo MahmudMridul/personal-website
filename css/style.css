@@ -1,6 +1,22 @@
 body
 {
   margin: 0;
+  font-family: 'Noto Serif', serif;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+.section-dark
+{
+	background: #262626;
 }
 
 .progress-bar
@@ -18,15 +34,46 @@ body
 
 .container
 {
-  display: grid;
-  grid-template: 1fr / 1fr 5.6fr;
+}
+
+.side-menu
+{
+  width: 210px;
+  position: fixed;
+	background-color: #000000;
+	opacity: 0.8;
+	text-align: left;
+	color: #808080;
+	line-height: 80px;
+	transition: opacity 1s, background-color 1s, line-height 1s, font-size 1s, color 1s;
+	z-index: 1;
+}
+
+.side-menu:hover
+{
+	opacity: 1;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#a, #b, #c, #d, #e, #f
+{
+  color: #bfbfbf;
+  font-size: 22px;
+	border-radius: 20px;
+}
+
+#a:hover, #b:hover, #c:hover, #d:hover, #e:hover, #f:hover
+{
+	color: #ffffff;
+  font-size: 24px;
 }
 
 .sections
 {
   display: grid;
   grid-template: 1fr / 1fr;
-  grid-column: 2 / -1;
+  margin-left: 210px;
 }
 
 .side-menu, .about, .education, .skills, .certifications, .projects, .contact
@@ -39,31 +86,47 @@ body
   height: 100vh;
 }
 
-.side-menu
-{
-  width: 200px;
-  position: fixed;
-	background-color: #000000;
-	opacity: 0.8;
-	text-align: left;
-	color: #808080;
-	line-height: 93px;
-	font-size: 23px;
-	transition: opacity 1s, background-color 1s, line-height 1s, font-size 1s, color 1s;
-	z-index: 1;
-}
-
-.side-menu:hover
-{
-	opacity: 1;
-	background-color: #000000;
-	color: #ffffff;
-}
-
 
 .about
 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
+.photo
+{
+  height: 250px;
+  width: 250px;
+  margin-top: 150px;
+  margin-left: 80px;
+  border-radius: 50%;
+}
+
+.about-text
+{
+  grid-column: 2 / -1;
+  font-size: 30px;
+  padding-top: 180px;
+}
+
+.download-resume
+{
+	text-decoration: none;
+	color: #f2f2f2;
+	text-align: center;
+	border-radius: 20px;
+	width: 180px;
+	height: 50px;
+	z-index: 1;
+	font-size: 20px;
+	background: #333333;
+	box-shadow: 8px 8px 15px #333333;
+}
+
+.download-resume:hover
+{
+	color: #f2f2f2;
+	box-shadow: 0px 0px 15px #333333;
 }
 
 .education
