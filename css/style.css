@@ -1,0 +1,92 @@
+body
+{
+  margin: 0;
+}
+
+.progress-bar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 5px;
+	width: 0%;
+	background: #0080ff;
+	border-radius: 3px;
+	z-index: 2;
+}
+
+
+.container
+{
+  display: grid;
+  grid-template: 1fr / 1fr 5.6fr;
+}
+
+.sections
+{
+  display: grid;
+  grid-template: 1fr / 1fr;
+  grid-column: 2 / -1;
+}
+
+.side-menu, .about, .education, .skills, .certifications, .projects, .contact
+{
+  font-size: 50px;
+}
+
+.side-menu, .about, .education, .skills, .certifications, .projects, .contact
+{
+  height: 100vh;
+}
+
+.side-menu
+{
+  width: 200px;
+  position: fixed;
+	background-color: #000000;
+	opacity: 0.8;
+	text-align: left;
+	color: #808080;
+	line-height: 93px;
+	font-size: 23px;
+	transition: opacity 1s, background-color 1s, line-height 1s, font-size 1s, color 1s;
+	z-index: 1;
+}
+
+.side-menu:hover
+{
+	opacity: 1;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+
+.about
+{
+
+}
+
+.education
+{
+
+}
+
+.skills
+{
+
+}
+
+.certifications
+{
+
+}
+
+.projects
+{
+
+}
+
+.contact
+{
+
+}
