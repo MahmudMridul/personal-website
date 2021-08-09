@@ -94,7 +94,7 @@ ul
 .about
 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
 
 .photo
@@ -113,20 +113,39 @@ ul
   padding-top: 180px;
 }
 
+.about-text span
+{
+  animation: fonty 3s 1;
+  animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes fonty {
+  0%,40%,100% {
+    font-size: 30px;
+  }
+  20% {
+    font-size: 40px;
+    font-weight: 400;
+  }
+}
+
+
+
 .download-resume
 {
   grid-column: 2 / 3;
+  grid-row: 3 / -1;
 	text-decoration: none;
 	color: #f2f2f2;
 	text-align: center;
 	border-radius: 20px;
 	width: 250px;
-	height: 50px;
+	height: 60px;
 	z-index: 1;
 	font-size: 22px;
 	background: #333333;
 	box-shadow: 8px 8px 15px #333333;
-  padding-top: 15px;
+  margin-left: 90px;
 }
 
 .download-resume:hover
@@ -138,8 +157,33 @@ ul
 
 .education
 {
-
+  color: #DFCFBE;
+  display: grid;
+  grid-template: repeat(8, 1fr) / repeat(10, 1fr);
 }
+
+.education_header
+{
+  text-align: center;
+  grid-column: 1 / -1;
+  margin-bottom: 50px;
+  font-size: 60px;
+}
+
+.uni_img, .college_img, .school_img
+{
+  margin-left: 40px;
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.uni, .college, .school
+{
+  font-size: 40px;
+  grid-column: 2 / -1;
+}
+
 
 .skills
 {
