@@ -164,6 +164,7 @@ ul
 
 .education_header
 {
+  margin-top: 50px;
   text-align: center;
   grid-column: 1 / -1;
   margin-bottom: 50px;
@@ -183,13 +184,50 @@ ul
 {
   font-size: 40px;
   grid-column: 2 / -1;
+
 }
 
 
 .skills
 {
-
+  display: grid;
+  color: #282D3C;
+  grid-template: repeat(8, 1fr) / repeat(2, 1fr);
+  grid-column-gap: 30px;
 }
+
+.skills_header
+{
+  margin-top: 50px;
+  text-align: center;
+  grid-column: 1 / -1;
+  margin-bottom: 50px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.technical_skills_header, .other_skills_header
+{
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.technical_skills, .other_skills
+{
+  padding-left: 15px;
+}
+
+.technical_skills, .other_skills
+{
+  font-size: 25px;
+}
+
+.technical_skills:hover, .other_skills:hover
+{
+  box-shadow: 5px 5px 10px;
+}
+
 
 .certifications
 {
