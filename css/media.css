@@ -1,14 +1,39 @@
-
-
-@media (max-width: 650px) {
+@media (max-width: 990px)
+{
 	.side-menu
 	{
 		display: none;
 	}
 
-	.about, .education, .skills, .certifications, .projects, .contact
+	.sections
 	{
-		width: 98.8vw;
-		left: 0px;
+	  display: grid;
+	  grid-template: 1fr / 1fr;
+	  margin-left: 0px;
 	}
+
+	.about
+	{
+	  display: grid;
+	  grid-template: 1.5fr 1.5fr 1fr / 1fr;
+	  grid-column-gap: 20px;
+	}
+
+	.about-text
+	{
+		grid-column: 1 / -1;
+	  grid-row: 2 / 3;
+	}
+
+	.button_center
+	{
+	  grid-column: 1 / -1;
+	  grid-row: 3 / -1;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	}
+
+
+
 }
