@@ -187,7 +187,7 @@ ul
 {
   color: #DFCFBE;
   display: grid;
-  grid-template: repeat(8, 1fr) / repeat(10, 1fr);
+  grid-template: 2fr 1.2fr 1.2fr 1.2fr / repeat(10, 1fr);
 }
 
 .education_header
@@ -224,7 +224,7 @@ ul
 {
   display: grid;
   color: #282D3C;
-  grid-template: repeat(8, 1fr) / repeat(2, 1fr);
+  grid-template: 1fr 2fr 0.1fr / repeat(2, 1fr);
   grid-column-gap: 30px;
 }
 
@@ -267,7 +267,7 @@ ul
 {
   color: #DFCFBE;
   display: grid;
-  grid-template: repeat(8, 1fr) / 1fr;
+  grid-template: 2fr 1.2fr 1.2fr / 1fr;
 }
 
 .certifications_header
