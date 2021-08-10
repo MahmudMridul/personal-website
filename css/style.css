@@ -97,7 +97,6 @@ ul
 
 .side-menu, .about, .education, .skills, .certifications, .projects, .contact
 {
-  font-size: 50px;
 }
 
 .side-menu
@@ -113,40 +112,39 @@ ul
 .about
 {
   display: grid;
-  grid-template: 1.5fr 1fr / repeat(3, 1fr);
+  grid-template: 400px 100px / repeat(3, 1fr);
   grid-column-gap: 20px;
+}
+
+.photo_holder
+{
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .photo
 {
   height: 250px;
   width: 250px;
-  margin-top: 150px;
-  margin-left: 80px;
+  /*margin-top: 150px;
+  margin-left: 80px;*/
   border-radius: 50%;
+}
+
+.about_text_holder
+{
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  display: flex;
+  align-items: center;
 }
 
 .about-text
 {
-  grid-column: 2 / -1;
   font-size: 30px;
-  padding-top: 180px;
-}
-
-.about-text span
-{
-  animation: fonty 3s 1;
-  animation-delay: calc(.1s * var(--i));
-}
-
-@keyframes fonty {
-  0%,40%,100% {
-    font-size: 30px;
-  }
-  20% {
-    font-size: 40px;
-    font-weight: 400;
-  }
 }
 
 .button_center
