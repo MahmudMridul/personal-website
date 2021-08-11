@@ -185,7 +185,7 @@ ul
 {
   color: #DFCFBE;
   display: grid;
-  grid-template: 2fr 1.2fr 1.2fr 1.2fr / repeat(10, 1fr);
+  grid-template: 2fr 1.2fr 1.2fr 1.2fr / repeat(2, 1fr);
 }
 
 .education_header
@@ -194,22 +194,15 @@ ul
   text-align: center;
   grid-column: 1 / -1;
   margin-bottom: 50px;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
-}
-
-.uni_img, .college_img, .school_img
-{
-  margin-left: 40px;
-  margin-top: 10px;
-  height: 50px;
-  width: 50px;
 }
 
 .uni, .college, .school
 {
-  font-size: 40px;
-  grid-column: 2 / -1;
+  font-size: 30px;
+  grid-column: 1 / -1;
+  margin-left: 20px;
 
 }
 /*----------------------------------------------------------------------------*/
