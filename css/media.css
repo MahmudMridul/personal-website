@@ -99,3 +99,158 @@
 
 	}
 }
+
+
+@media (max-width: 990px)
+{
+	.skills
+	{
+	  display: grid;
+	  color: #282D3C;
+	  grid-template: 1fr / 1fr;
+	  grid-column-gap: 30px;
+	}
+
+	.skills_header
+	{
+	  margin-top: 50px;
+	  text-align: center;
+	  grid-column: 1 / -1;
+	  margin-bottom: 50px;
+	  font-size: 30px;
+	  font-weight: 600;
+	}
+
+	.technical_skills_header, .other_skills_header
+	{
+	  font-size: 20px;
+	  font-weight: 600;
+	  text-align: center;
+	}
+
+	.technical_skills, .other_skills
+	{
+	  padding-left: 15px;
+	}
+
+	.technical_skills, .other_skills
+	{
+	  font-size: 20px;
+	}
+
+	.technical_skills:hover, .other_skills:hover
+	{
+	  box-shadow: 5px 5px 10px;
+	}
+}
+
+
+@media (max-width: 990px)
+{
+	.certifications
+	{
+	  color: #DFCFBE;
+	  display: grid;
+	  grid-template: 1fr / 1fr;
+	}
+
+	.certifications_header
+	{
+	  margin-top: 50px;
+	  text-align: center;
+	  grid-column: 1 / -1;
+	  margin-bottom: 50px;
+	  font-size: 30px;
+	  font-weight: 600;
+	}
+
+	.certificate
+	{
+	  grid-column: 1 / -1;
+	  padding-left: 15px;
+	  font-size: 20px;
+	}
+}
+
+
+@media (max-width: 990px)
+{
+	.projects
+	{
+	  display: grid;
+	  grid-template: repeat(auto-fill, minmax(220px, 1fr)) / repeat(auto-fill, minmax(200px, 1fr));
+	  grid-gap: 30px;
+	}
+
+	.projects_header
+	{
+	  margin-top: 50px;
+	  text-align: center;
+	  grid-column: 1 / -1;
+	  margin-bottom: 50px;
+	  font-size: 30px;
+	  font-weight: 600;
+	}
+
+
+	.card
+	{
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  transition: 0.3s;
+	  margin-left: 10px;
+	}
+
+	.card:hover
+	{
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	}
+
+	.contain
+	{
+	  padding: 2px 16px;
+	}
+
+	.project_img
+	{
+	  height: 180px;
+	  width: 180px;
+	}
+}
+
+
+
+@media (max-width: 990px)
+{
+	.contact
+	{
+	  color: #DFCFBE;
+	  display: grid;
+	  grid-template: repeat(auto-fill, minmax(60, 1fr)) / repeat(auto-fill, minmax(60px, 1fr));
+	  grid-gap: 10px;
+	}
+
+	.contact_header
+	{
+	  margin-top: 50px;
+	  text-align: center;
+	  grid-column: 1 / -1;
+	  margin-bottom: 50px;
+	  font-size: 30px;
+	  font-weight: 600;
+	}
+
+	.contact_img_holder
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	  height: 60px;
+	  width: 60px;
+	}
+
+	.contact_img
+	{
+	  height: 60px;
+	  width: 60px;
+	}
+}

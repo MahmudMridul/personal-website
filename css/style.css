@@ -18,6 +18,7 @@ a
 ul
 {
   list-style-type: none;
+  padding-top: 100px;
 }
 
 .section-dark
@@ -185,24 +186,22 @@ ul
 {
   color: #DFCFBE;
   display: grid;
-  grid-template: 2fr 1.2fr 1.2fr 1.2fr / repeat(2, 1fr);
+  grid-template: 70px 50px 50px 50px / repeat(2, 1fr);
 }
 
 .education_header
 {
-  margin-top: 50px;
   text-align: center;
   grid-column: 1 / -1;
-  margin-bottom: 50px;
   font-size: 50px;
   font-weight: 600;
+  margin-bottom: 100px;
 }
 
 .uni, .college, .school
 {
   font-size: 30px;
   grid-column: 1 / -1;
-  margin-left: 20px;
 
 }
 /*----------------------------------------------------------------------------*/
@@ -221,11 +220,9 @@ ul
 
 .skills_header
 {
-  margin-top: 50px;
   text-align: center;
   grid-column: 1 / -1;
-  margin-bottom: 50px;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
 }
 
@@ -238,7 +235,6 @@ ul
 
 .technical_skills, .other_skills
 {
-  padding-left: 15px;
 }
 
 .technical_skills, .other_skills
@@ -263,18 +259,16 @@ ul
 
 .certifications_header
 {
-  margin-top: 50px;
+
   text-align: center;
   grid-column: 1 / -1;
-  margin-bottom: 50px;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
 }
 
 .certificate
 {
   grid-column: 1 / -1;
-  padding-left: 15px;
   font-size: 30px;
 }
 /*----------------------------------------------------------------------------*/
@@ -292,11 +286,9 @@ ul
 
 .projects_header
 {
-  margin-top: 50px;
   text-align: center;
   grid-column: 1 / -1;
-  margin-bottom: 50px;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
 }
 
@@ -305,7 +297,6 @@ ul
 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  margin-left: 10px;
 }
 
 .card:hover
@@ -333,31 +324,50 @@ ul
 {
   color: #DFCFBE;
   display: grid;
-  grid-template: repeat(auto-fill, minmax(100px, 1fr)) / repeat(auto-fill, minmax(100px, 1fr));
+  grid-template: repeat(auto-fill, minmax(100px, 1fr)) / repeat(9, 1fr);
   grid-gap: 30px;
 }
 
 .contact_header
 {
-  margin-top: 50px;
   text-align: center;
   grid-column: 1 / -1;
-  margin-bottom: 50px;
   font-size: 60px;
   font-weight: 600;
 }
 
 .contact_img_holder
 {
-  height: 100px;
-  width: 100px;
-  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact_img
 {
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
+}
+
+.contact_img_mail
+{
+  height: 80px;
+  width: 60px;
+}
+
+.one
+{
+  grid-column: 4 / 5;
+}
+
+.two
+{
+  grid-column: 5 / 6;
+}
+
+.three
+{
+  grid-column: 6 / 7;
 }
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
