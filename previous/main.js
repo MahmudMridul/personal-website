@@ -1,5 +1,4 @@
-
-var scroll = new SmoothScroll('.navbar-nav a', { speed: 900 });
+var scroll = new SmoothScroll('.side-menu-text a', { speed: 700 });
 
 window.onscroll = function()
 {

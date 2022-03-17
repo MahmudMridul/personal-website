@@ -1,218 +1,277 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<title>Mahmud Mridul</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
 
-  </head>
-  <body link="white" vlink="white" alink="white">
+    <link rel="stylesheet" href="css/index.css">
 
-    <div class="progress-bar" id="scrollBar"></div>
+    <title>Abdullah Al Mahmud</title>
 
-    <div class="container">
+</head>
+<body>
+    
+    <!-- Grid Container -->
+    <div class="container"> 
 
-      <div class="side-menu">
+        <!-- Top NavBar -->
+        <div class="row">
 
-        <ul class="side-menu-text">
-            <li>
-                <a href="#about" id="a"> About </a>
-            </li>
-            <li>
-                <a href="#education" id="b"> Education </a>
-            </li>
-            <li>
-                <a href="#skills" id="c"> Skills </a>
-            </li>
-            <li>
-                <a href="#certifications" id="d"> Certifications </a>
-            </li>
-            <li>
-                <a href="#projects" id="e"> Projects </a>
-            </li>
-            <li>
-                <a href="#contact" id="f"> Contact </a>
-            </li>
-        </ul>
+            <div class="col">
+                
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container">
 
-      </div>
+                        <a class="navbar-brand" href="#">Menu</a>
 
-      <div class="sections">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-        <div class="about" id="about">
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active" aria-current="page" href="#about"> About </a>
+                                <a class="nav-link" href="#experience"> Experience </a>
+                                <a class="nav-link" href="#skills"> Skills </a>
+                                <a class="nav-link" href="#education"> Education </a>
+                                <a class="nav-link" href="#certifications"> Certifications </a>
+                                <a class="nav-link" href="#projects"> Projects </a>
+                                <a class="nav-link" href="#"> Blogs </a>
+                                <a class="nav-link" href="#contact"> Contact </a>
+                            </div>
+                        </div>
 
-          <div class="photo_holder">
-            <img src="image/LinkedIn_profile_photo.jpg" class="photo">
-          </div>
+                    </div>
+                </nav>
 
-          <div class="about_text_holder">
-
-            <div class="about-text">
-                Hi! I'm Abdullah Al Mahmud. I'm an Associate Software Developer at 
-                <a href="https://www.iqvia.com/" class="iqvia_link" target="_blank"> IQVIA</a>.
-                I'am from Dhaka, Bangladesh. I love to write code, learn new algorithms and read books. 
             </div>
-
-          </div>
-
-
-          <div class="button_center">
-
-            <button class="download-resume">
-    					<a href="resume/ABDULLAH_AL_MAHMUD.pdf" target="_blank" download> Download Resume</a>
-    				</button>
-
-          </div>
-
 
         </div>
+        <!-- Top NavBar End -->
 
-        <div class="education section-dark" id="education">
+        <!-- About Section -->
+        <div class="row" id="about">
+            
+            <!-- About Section Sub Grid -->
+            <div class="container">
 
-          <div class="education_header">
-            Education
-          </div>
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <img src="image/LinkedIn_profile_photo.jpg" class="photo">
+                    </div>
+                </div>
 
-          <div class="uni">
-            BSc in CSE from Brac University. (2017 to 2021)
-          </div>
+                <div class="row justify-content-center">
+                    <div class="col-6 about-text">
+                        Hi! I'm Abdullah Al Mahmud. I'm an Associate Software Developer at 
+                        <a href="https://www.iqvia.com/" class="iqvia_link" target="_blank"> IQVIA</a>.
+                        I'am from Dhaka, Bangladesh. I love to write code, learn new algorithms and read books. 
+                    </div>
+                </div>
 
-          <div class="college">
-            HSC from Govt. Science College. (2014 to 2016)
-          </div>
-
-          <div class="school">
-            SSC from Govt. Science School. (2004 to 2014)
-          </div>
+            </div>
+            <!-- About Section Sub Grid End-->
 
         </div>
+        <!-- About Section End -->
 
-        <div class="skills" id="skills">
+        <!-- Experience Section -->
+        <div class="row justify-content-center" id="experience">
 
-          <div class="skills_header">
-            Skills
-          </div>
+            <!-- Experience Section Sub Grid -->
+            <div class="container">
 
-          <div class="technical_skills">
-            <div class="technical_skills_header">
-              Technical Skills
+                <div class="row justify-content-center">
+                    <div class="col-6 section-title">
+                        <b>Experience</b>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <b>Software Developer Intern | IQVIA | August 2021 - February 2022</b> <br>
+                        Got training on <b>SDLC, Business Intelligence, Data Warehouse, PowerBI</b>. Developed
+                        CRUD <b>API</b>  using <b>C#, Entity Framework</b> and <b>MS SQL Server</b> and
+                        displayed retrieved data in a UI developed using <b>Angular</b> 
+                        Worked <b>Java web application</b> . Modified the
+                        installer and extended a feature of the web application.
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <b>Associate Software Developer | IQVIA | March 2022 - Present</b> <br>
+                        Working on a Java web application. Updated logging library of the application and also updated Jsp files related bugs. 
+                    </div>
+                </div>
+
             </div>
-            Have knowledge in <i>OOP, SDLC, SDLC methodology, Design patterns</i> . <br>
-            <strong>Technical Tools:</strong> <br>
-            Programming Technologies: <i>Java, Python, MySQL</i> <br>
-            Programming Technologies (Front end):<i>HTML5, CSS3, JavaScript</i>  <br>
-            Version Control : <i>Git, GitHub</i>
-          </div>
-
-
-          <div class="other_skills">
-            <div class="other_skills_header">
-              Other Skills
-            </div>
-            Language: Fluent in Bangla, English<br>
-            Soft Skills: Adaptability, quick learner, good problem solver, dedicated to work, team person.
-          </div>
+            <!-- Experience Section Sub Grid End -->
 
         </div>
+        <!-- Experience Section End -->
 
-        <div class="certifications section-dark" id="certifications">
+        <!-- Skills Section -->
+        <div class="row" id="skills">
 
-          <div class="certifications_header">
-            Certifications
-          </div>
+            <!-- Skills Section Sub Grid -->
+            <div class="container">
 
-          <div class="certificate">
-            Problem Solving (Basic), HackerRank
-            <a href="https://www.hackerrank.com/certificates/91e7e3042b00" target="_blank"> (Link) </a>
-          </div>
+                <div class="row">
+                    <div class="col section-title">
+                       <b>Skills</b> 
+                    </div>
+                </div>
 
-          <div class="certificate">
-            Java (Basic), HackerRank
-            <a href="https://www.hackerrank.com/certificates/599036d179e6" target="_blank"> (Link) </a>
-          </div>
+                <div class="row">
+                    <div class="col">
+                        <b>Hard Skills</b> <br>
+                        <b>Back end Technologies :</b> Java SE, Python, C# and Basic understanding of Java
+                        EE. <br>
+                        <b>Front End Technologies :</b>  HTML, CSS, JavaScript. <br>
+                        <b>Frameworks : </b> Entity Framework, Angular <br>
+                        <b>Database Technologies :</b>  MySQL, MS SQL Server. <br>
+                        <b>Version Control : </b> Git, GitHub, TortoiseGit, TortoiseSVN, Subversion <br>
+                        <b>Project Management Tool :</b>  JIRA <br>
+                        <b>Others :</b>  MS Word, MS Excel, MS Powerpoint, PowerBI <br><br>
+                        <b>Soft Skills</b> <br> 
+                        Adaptability, quick learner, good problem solver, dedicated to work, team person,
+                        have can do attitude. <br><br>
+                        <b>Others</b> <br>
+                        Fluent in English and Bangla <br>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Skills Section Sub Grid End -->
 
         </div>
+        <!-- Skills Section End -->
 
-        <div class="projects" id="projects">
+        <!-- Education Section -->
+        <div class="row" id="education">
 
-          <div class="projects_header">
-            Projects
-          </div>
+            <!-- Education Section Sub Grid -->
+            <div class="container">
 
-          <div class="card">
-            <a href="https://github.com/MahmudMridul/Banking-System" target="_blank">
-            <img src="image/bank.png" class="project_img" alt="">
-            </a>
-            <div class="contain">
-              <h4><b>Banking Management System</b></h4>
+                <div class="row section-title">
+                    <div class="col">
+                        <b>Education</b> 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        BSc in CSE from BRAC University (2017 - 2021) | CGPA 3.60 <br>
+                        HSC from Govt. Science College (2014 - 2016) | GPA 5.00 <br>
+                        SSS from Govt. Science School (2004 - 2014) | GPA 5.00 <br>
+                    </div>
+                  </div>
+
             </div>
-          </div>
-
-          <div class="card">
-            <a href="https://github.com/MahmudMridul/Baby-Sitting-Management-System" target="_blank">
-            <img src="image/babysitter.png" class="project_img" alt="">
-            </a>
-            <div class="contain">
-              <h4><b>Babysitting Management System</b></h4>
-            </div>
-          </div>
-
-          <div class="card">
-            <a href="https://github.com/MahmudMridul/Brick-Breaker" target="_blank">
-            <img src="image/brick-breaker.png" class="project_img" alt="">
-            </a>
-            <div class="contain">
-              <h4><b>Brick Breaker</b></h4>
-            </div>
-          </div>
-
-          <div class="card">
-            <a href="https://github.com/MahmudMridul/Aboid-Obstacle" target="_blank">
-            <img src="image/overcome.png" class="project_img" alt="">
-            </a>
-            <div class="contain">
-              <h4><b>Avoid Obstacle</b></h4>
-            </div>
-          </div>
+            <!-- Education Section Sub Grid End -->
 
         </div>
+        <!-- Education Section End -->
 
-        <div class="contact section-dark" id="contact">
+        <!-- Certifications Section -->
+        <div class="row" id="certifications">
 
-          <div class="contact_header">
-            Contact
-          </div>
+            <!-- Certifications Section Sub Grid -->
+            <div class="container">
 
-          <div class="contact_img_holder one">
-            <a href="mailto: mahmudmridul.185@gmail.com" target="_blank">
-            <img src="image/gmail.png" class="contact_img_mail" alt="">
-            </a>
-          </div>
+                <div class="row section-title">
+                    <div class="col">
+                        <b>Certifications</b> 
+                    </div>
+                </div>
 
-          <div class="contact_img_holder two">
-            <a href="https://www.linkedin.com/in/abdullah-al-mahmud-mridul" target="_blank">
-            <img src="image/linkedin.png" class="contact_img" alt="">
-            </a>
-          </div>
+                <div class="row">
+                    <div class="col">
+                        Problem solving (Basic), <a href="https://www.hackerrank.com/certificates/91e7e3042b00" target="_blank">Hacker Rank</a>  <br>
+                        Java (Basic), <a href="https://www.hackerrank.com/certificates/599036d179e6" target="_blank">Hacker Rank</a>  <br>
+                        Introduction to Java EE, <a href="https://www.udemy.com/certificate/UC-243c8565-f318-44cd-b5a0-c41c7a3c2857/" target="_blank">Udemy</a>  <br>
+                        Introduction to Entity Framework, LinkedIn Learning <br>
+                        Advanced SQL for Data Scientists (2017), LinkedIn Learning <br>
+                        DevOps Foundations, LinkedIn Learning <br>
+                    </div>
+                  </div>
 
-          <div class="contact_img_holder three">
-            <a href="https://www.facebook.com/mahmudmridul.185" target="_blank">
-            <img src="image/facebook.png" class="contact_img" alt="">
-            </a>
-          </div>
+            </div>
+            <!-- Certifications Section Sub Grid End -->
 
         </div>
+        <!-- Certifications Section End -->
 
-      </div>
+        <!-- Projects Section -->
+        <div class="row" id="projects">
+
+            <!-- Projects Section Sub Grid -->
+            <div class="container">
+
+                <div class="row section-title">
+                    <div class="col">
+                        <b>Projects</b> 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        Intern Management Web App | <a href="https://github.com/arnab-dibosh/intern-management-api" target="_blank">API link</a>  | 
+                        <a href="https://github.com/arnab-dibosh/arnab-dibosh.github.io" target="_blank">UI link</a> <br>
+                        Wisdom Academy Website | <a href="https://github.com/MahmudMridul/wisdom-academy-website" target="_blank">Link</a>  <br>
+                        Baby Sitting Management | <a href="https://github.com/MahmudMridul/Baby-Sitting-Management-System" target="_blank">Link</a>  <br>
+                        Personal Website | <a href="https://mahmudmridul.github.io/personal-website/" target="_blank">Link</a>  <br>
+                        Other Projects | <a href="https://github.com/MahmudMridul?tab=repositories" target="_blank">Link</a>  <br>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Projects Section Sub Grid End -->
+
+        </div>
+        <!-- Projects Section End -->
+
+        <!-- Contact Section -->
+        <div class="row" id="contact">
+
+            <!-- Contact Section Sub Grid -->
+            <div class="container">
+
+                <div class="row section-title">
+                    <div class="col">
+                        <b>Contact</b> 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        Email : <a href="mailto: mahmudmridul.185@gmail.com" target="_blank">mahmudmridul.185@gmail.com</a> <br>
+                        LinkedIn : <a href="https://www.linkedin.com/in/abdullah-al-mahmud-mridul/" target="_blank">Link</a>  <br>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Contact Section Sub Grid End -->
+
+        </div>
+        <!-- Contact Section End -->
 
     </div>
+    <!-- Grid Container End -->
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js">
-		</script>
-		<script type="text/javascript" src="js/script_1.js"></script>
+    </script>
+    <script type="text/javascript" src="js/main.js"></script>
 
-  </body>
+</body>
 </html>
