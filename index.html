@@ -15,7 +15,7 @@
     <title>Abdullah Al Mahmud</title>
 
 </head>
-<body>
+<body class=".bg-light.bg-gradient">
     
     <!-- Grid Container -->
     <div class="container"> 
@@ -25,7 +25,7 @@
 
             <div class="col">
                 
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                     <div class="container">
 
                         <a class="navbar-brand" href="#">Menu</a>
@@ -61,14 +61,15 @@
             <!-- About Section Sub Grid -->
             <div class="container">
 
-                <div class="row justify-content-center">
-                    <div class="col-3">
+<!--                 
+                <div class="row">
+                    <div class="col">
                         <img src="image/LinkedIn_profile_photo.jpg" class="photo">
                     </div>
-                </div>
+                </div> -->
 
-                <div class="row justify-content-center">
-                    <div class="col-6 about-text">
+                <div class="row">
+                    <div class="col about-text">
                         Hi! I'm Abdullah Al Mahmud. I'm an Associate Software Developer at 
                         <a href="https://www.iqvia.com/" class="iqvia_link" target="_blank"> IQVIA</a>.
                         I'am from Dhaka, Bangladesh. I love to write code, learn new algorithms and read books. 
@@ -82,13 +83,13 @@
         <!-- About Section End -->
 
         <!-- Experience Section -->
-        <div class="row justify-content-center" id="experience">
+        <div class="row" id="experience">
 
             <!-- Experience Section Sub Grid -->
             <div class="container">
 
-                <div class="row justify-content-center">
-                    <div class="col-6 section-title">
+                <div class="row">
+                    <div class="col section-title shadow-lg p-3 mb-5 bg-body rounded">
                         <b>Experience</b>
                     </div>
                 </div>
@@ -107,7 +108,7 @@
                 <div class="row">
                     <div class="col">
                         <b>Associate Software Developer | IQVIA | March 2022 - Present</b> <br>
-                        Working on a Java web application. Updated logging library of the application and also updated Jsp files related bugs. 
+                        Working on a Java web application. Updated logging library of the application and fixed Jsp files related bugs. 
                     </div>
                 </div>
 
@@ -124,7 +125,7 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col section-title">
+                    <div class="col section-title shadow-lg p-3 mb-5 bg-body rounded">
                        <b>Skills</b> 
                     </div>
                 </div>
@@ -161,18 +162,55 @@
             <div class="container">
 
                 <div class="row section-title">
-                    <div class="col">
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <b>Education</b> 
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col">
-                        BSc in CSE from BRAC University (2017 - 2021) | CGPA 3.60 <br>
-                        HSC from Govt. Science College (2014 - 2016) | GPA 5.00 <br>
-                        SSS from Govt. Science School (2004 - 2014) | GPA 5.00 <br>
+                    <div class="accordion" id="accordionExample">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Bachelor of Science (2017 - 2021)
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    from BRAC University in Computer Science & Engineering | CGPA 3.60 out of 4.00
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    HSC (2014 - 2016)
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    from Govt. Science College | GPA 5.00 out of 5.00
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    SSC (2004 - 2014)
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    from Govt. Science School | GPA 5.00 out of 5.00
+                                </div>
+                            </div>
+                        </div>
+                    
                     </div>
-                  </div>
+                </div>
 
             </div>
             <!-- Education Section Sub Grid End -->
@@ -187,7 +225,7 @@
             <div class="container">
 
                 <div class="row section-title">
-                    <div class="col">
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <b>Certifications</b> 
                     </div>
                 </div>
@@ -216,7 +254,7 @@
             <div class="container">
 
                 <div class="row section-title">
-                    <div class="col">
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <b>Projects</b> 
                     </div>
                 </div>
@@ -245,7 +283,7 @@
             <div class="container">
 
                 <div class="row section-title">
-                    <div class="col">
+                    <div class="col shadow-lg p-3 mb-5 bg-body rounded">
                         <b>Contact</b> 
                     </div>
                 </div>
@@ -262,6 +300,16 @@
 
         </div>
         <!-- Contact Section End -->
+
+        <!-- Back to Top Button -->
+        <div class="row">
+            <div class="col">
+                <div class="d-grid gap-2">
+                    <a class="btn btn-dark backtotop" href="#about" role="button">Back to Top</a>
+                </div>
+            </div>
+        </div>
+        
 
     </div>
     <!-- Grid Container End -->
