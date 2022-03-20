@@ -9,12 +9,6 @@ a
   text-decoration: none;
 }
 
-.section-dark
-{
-	background-color: #282D3C;
-    color: bisque;
-}
-
 .photo
 {
   height: 250px;
@@ -35,7 +29,7 @@ a
 
 .section-title
 {
-    margin-top: 30px;
+    margin-top: 70px;
     font-size: 22px;
 }
 
