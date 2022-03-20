@@ -49,7 +49,7 @@ a
     margin-bottom: 30px;
 }
 
-@media (max-width: 720px)
+@media (max-width: 768px)
 {
     .about-text
     {
