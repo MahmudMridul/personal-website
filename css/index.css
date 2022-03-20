@@ -17,8 +17,8 @@ a
 
 .photo
 {
-  height: 250px;
-  width: 250px;
+  height: 230px;
+  width: 230px;
   margin-top: 100px;
   border-radius: 50%;
 }
@@ -36,11 +36,12 @@ a
 .section-title
 {
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .backtotop
 {
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
