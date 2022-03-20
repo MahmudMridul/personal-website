@@ -39,9 +39,19 @@ a
     font-size: 22px;
 }
 
+.contact_text
+{
+    color: aliceblue;
+}
+
+.contact_div
+{
+    margin-top: 100px;
+}
+
 .backtotop
 {
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: 30px;
 }
 
