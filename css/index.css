@@ -33,6 +33,12 @@ a
     font-size: 22px;
 }
 
+.slider-image
+{
+    height: 180px;
+    width: 600px;
+}
+
 .contact_text
 {
     color: aliceblue;
@@ -40,12 +46,12 @@ a
 
 .contact_div
 {
-    margin-top: 100px;
+    margin-top: 250px;
 }
 
 .backtotop
 {
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 30px;
 }
 
